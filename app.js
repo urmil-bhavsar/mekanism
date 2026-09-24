@@ -6,12 +6,13 @@ const swaggerSpec = require('./swagger');
 const rootRouter = require('./routes')
 const cors = require('cors');
 
-// Enable CORS for all routes
-app.use(cors());
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Enable CORS for all routes
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
