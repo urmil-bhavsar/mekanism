@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "mekanism_user",
+    "password": "S4mqHc2Uzbn8BiBhpDTDnKb97xji5fH9",
+    "database": "mekanism",
+    "host": "dpg-daqdchqd0e5s73a66dr0-a",
+    "dialect": "postgres"
   }
 }
