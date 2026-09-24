@@ -4,6 +4,10 @@ const db = require('./models'); // 1. Import the entire models directory (index.
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('./swagger');
 const rootRouter = require('./routes')
+const cors = require('cors');
+
+// Enable CORS for all routes
+app.use(cors());
 
 const app = express();
 const PORT = process.env.PORT || 3000;

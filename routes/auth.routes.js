@@ -32,6 +32,9 @@ const JWT_SECRET = process.env.JWT_SECRET || 'mekanism';
  *                 type: string
  *                 enum: [author, reader]
  *                 example: author
+ *               username:
+ *                 type: string
+ *                 example: AuthorName
  *     responses:
  *       201:
  *         description: Registration successful
